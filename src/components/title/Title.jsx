@@ -22,6 +22,7 @@ const DivTitle = styled.div`
 position: relative;
 display: flex;
 max-width: 1440px;
+height: 100px;
 margin: 0 auto;
 `
 

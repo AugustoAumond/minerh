@@ -3,7 +3,7 @@ import './App.css'
 
 import Header from './components/header/Header';
 import Title from './components/title/Title';
-
+import Graphics from './components/graphics/Graphics';
 
 function App() {
 
@@ -13,6 +13,8 @@ function App() {
       <Header/>
       
       <Title/>
+
+      <Graphics/>
 
     </DivApp>
   );
