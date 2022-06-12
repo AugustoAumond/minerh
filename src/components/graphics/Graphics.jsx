@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 
-import Title from './title/Title';
-import Column from './column/Column';
+import Title from './divcolumn/title/Title';
+import Column from './divcolumn/column/Column';
+import Scatter from './divscatter/scatter/Scatter';
 
 
 function Graphics() {
@@ -12,6 +13,8 @@ function Graphics() {
         <Title/>
         
         <Column/>
+
+        <Scatter/>
     </Div>
   );
 }
@@ -19,9 +22,9 @@ export default Graphics;
 
 const Div = styled.div`
 position: relative;
-width: 48%;
+display: flex;
+width: 100%;
 height: 359px;
-border: solid;
 left: 28px;
-top: 98px;
+top: 19px;
 `
