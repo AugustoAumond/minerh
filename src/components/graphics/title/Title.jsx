@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {IoMdInformationCircle} from 'react-icons/io';
-import {FaBars} from 'react-icons/fa';
 
 function Title(){ 
 
@@ -9,16 +8,9 @@ function Title(){
             <DivTitle>
                 <div>
                     Barras
-
                     <IoMdInformationCircle id='iconinformation'/>
-                </div>
-
-                <div>
-                    <FaBars id='iconbars'/>
-                </div>
-                
+                </div>       
             </DivTitle>
-
         </Div>
     )
 }
@@ -37,7 +29,7 @@ top: 6px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-font-family: 'Montserrat';
+font-family: "Open Sans";
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -46,9 +38,9 @@ color: #5D405C;
 
     #iconinformation {
         position: relative;
+        top: 5px;
         left 10px;
         color: #19D7AA;
         font-size: 21px;
     }
-
 `
