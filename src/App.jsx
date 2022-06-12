@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import './App.css'
 
 import Header from './components/header/Header';
-import Title from './components/title/Title';
+import DivTitle from './components/title/DivTitle';
 import Graphics from './components/graphics/Graphics';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
       <Header/>
       
-      <Title/>
+      <DivTitle/>
 
       <Graphics/>
 
@@ -25,5 +25,4 @@ export default App;
 const DivApp = styled.div` 
 max-width: 1440px;
 height: 1024px;
-border: solid;
 `

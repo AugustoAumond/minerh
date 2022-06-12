@@ -6,8 +6,6 @@ function Column(){
     setTimeout(() => {
         let chart = document.querySelector('#graphics'); 
     
-        console.log(chart);
-    
         let options =  {
             series: [{
                 name: 'País',
@@ -15,7 +13,7 @@ function Column(){
             }],
             chart: {
                 type: 'bar',
-                height: 290, 
+                height: 310, 
                 width: '100%',
                 toolbar: false, 
                 },
@@ -55,7 +53,7 @@ const Graphic = styled.div`
 position: relative;
 max-width: 603px;
 min-width: 290px;
-top: 38px;
-left: -40px;
-width: 100%;
+top: 15px;
+left: 18px;
+width: 90%;
 `

@@ -4,15 +4,13 @@ function Title (){
 
     return (
         <DivTitle>
-            <Div>
-                <div className="dash">
-                    Dashboard
-                </div>
+            <div className="dash">
+                Dashboard
+            </div>
 
-                <div className="teste">
-                    Desafio Técnico Frontend
-                </div>  
-            </Div>
+            <div className="teste">
+                Desafio Técnico Frontend
+            </div>  
         </DivTitle>
     )
 }
@@ -20,17 +18,8 @@ export default Title;
 
 const DivTitle = styled.div`
 position: relative;
-display: flex;
-max-width: 1440px;
-height: 100px;
-margin: 0 auto;
-`
-
-const Div = styled.div`
-position: relative;
 height: 34px;
 left: 28px;
-top: 33px;
 
     .dash {
         max-width: 161px;

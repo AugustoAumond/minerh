@@ -6,8 +6,6 @@ function Scatter(){
     setTimeout(() => {
         let chart = document.querySelector('#scatter'); 
     
-        console.log(chart);
-    
         let options =  {
             series: [{
                 name: "SAMPLE A",
@@ -27,10 +25,6 @@ function Scatter(){
                 width:'100%',
                 type: 'scatter',
                 toolbar: false,                
-                zoom: {
-                  enabled: true,
-                  type: 'xy'
-                }
               },
               xaxis: {
                 tickAmount: 10,
@@ -64,7 +58,7 @@ const Graphic = styled.div`
 position: relative;
 max-width: 603px;
 min-width: 290px;
-top: 38px;
-left: -40px;
-width: 100%;
+top: 15px;
+left: 18px;
+width: 88%;
 `

@@ -1,20 +1,16 @@
 import styled from 'styled-components';
 
-
-import Title from './divcolumn/title/Title';
-import Column from './divcolumn/column/Column';
-import Scatter from './divscatter/scatter/Scatter';
+import DivColumn from './divcolumn/DivColumn';
+import DivScatter from './divscatter/DivScatter';
 
 
 function Graphics() {
 
   return (
     <Div>
-        <Title/>
-        
-        <Column/>
+        <DivColumn/>
 
-        <Scatter/>
+        <DivScatter/>
     </Div>
   );
 }
@@ -26,5 +22,9 @@ display: flex;
 width: 100%;
 height: 359px;
 left: 28px;
-top: 19px;
+top: 10px;
+
+    @media (max-width: 850px){
+        flex-direction: column;
+    }
 `
