@@ -25,6 +25,7 @@ const DivApp = styled.div`
 max-width: 1440px;
 height: 650px;
 margin: 0 auto;
+border-radius: 25px;
 border: solid 1px #80808078;
 
   @media (max-width: 850px){

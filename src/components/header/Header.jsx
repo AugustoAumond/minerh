@@ -15,5 +15,6 @@ position: relative;
 margin: 0 auto;
 max-width: 1440px;
 height: 91px;
+border-radius: 20px 20px 1px 1px;
 background: #CEC6CE;
 `
