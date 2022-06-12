@@ -16,6 +16,8 @@ function DivColumn() {
 export default DivColumn;
 
 const Div = styled.div`
+position: relative;
+right: 24px;
 width: 100%;
 
     @media (max-width: 850px){

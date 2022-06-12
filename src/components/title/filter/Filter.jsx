@@ -16,6 +16,8 @@ function Filter (){
 export default Filter;
 
 const DivFilter = styled.button`
+position: relative;
+right: 24px;
 display: flex;
 width: 100px;
 height: 40px;

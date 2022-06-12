@@ -30,6 +30,10 @@ width: 87%;
 left: 23px;
 top: 20px;
 
+    @media (max-width: 850px){
+        width: 90%;
+    }
+
 `
 
 const DivTitle = styled.div`

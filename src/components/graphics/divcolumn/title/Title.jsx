@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {IoMdInformationCircle} from 'react-icons/io';
 
 function Title(){ 
 
@@ -30,6 +29,10 @@ position: relative;
 width: 89%;
 left: 23px;
 top: 20px;
+
+    @media (max-width: 850px){
+        width: 90%;
+    }
 
 `
 
