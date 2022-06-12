@@ -22,6 +22,7 @@ border-radius: 20px 20px 1px 1px;
 background: radial-gradient(circle farthest-corner at 50% 50%, #5C3F5C 0%, #2E202E 47.34375070547685%);
 
     img {
+        width: 100px;
         position: relative;
         left: 25px;
     }
